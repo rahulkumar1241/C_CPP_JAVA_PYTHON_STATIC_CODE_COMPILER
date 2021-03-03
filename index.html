@@ -1,0 +1,48 @@
+
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>  
+ 
+    <div class="container"> 
+
+  <form>
+    <div class="form-group">
+        <h2 style="width:50%;display: inline" class="mb-3">Type your code here:</h2>
+      <label for="comment" class="selection_box mb-3"> 
+    <select id="language_select" name="language" >
+        <option value=0 selected>Python</option>
+        <option value=4>Javascript</option>
+        <option value=7>C</option>
+        <option value=77>CPP</option>
+        <option value=8>JAVA</option>
+    </select>
+        </label>
+        <textarea class="form-control  textarea" rows="10" id="input_area"></textarea>
+        <textarea class="form-control output_console" rows="5" >OUTPUT:</textarea>
+    </div>
+  </form>
+        
+        <button type="button" class="btn btn-warning" id="submit_button">Submit</button>
+</div>
+
+   
+
+    
+    
+    
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
